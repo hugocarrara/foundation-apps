@@ -1016,7 +1016,8 @@
         templateUrl: 'components/accordion/accordion-item.html',
         transclude: true,
         scope: {
-          title: '@'
+          title: '@',
+          active: '@'
         },
         require: '^zfAccordion',
         replace: true,
